@@ -19,6 +19,24 @@ The core concept, architecture, and features (real-time crowd monitoring, gate/q
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg?style=for-the-badge&logo=netlify)](https://iot-camera-app.netlify.app)
+
+---
+
+## 🔒 Backend and Architecture Note
+
+This repository represents the **Public** part of the project and contains **Frontend** source code only.
+
+The Backend services, database schemas, and API configurations are maintained in a **Private** main repository due to security and confidentiality requirements. This system is automatically synchronized and deployed to production using **GitHub Actions**.
+
+If you have any questions regarding the backend architecture, API design, or technical details of the project, please feel free to contact me:
+
+| Platform      | Contact                                        |
+| ------------- | ---------------------------------------------- |
+| 📧 **Email**  | [Send Email](mailto:alperocal2@googlemail.com) |
+| 🐙 **GitHub** | [@Alpi2](https://github.com/Alpi2)             |
+
+---
 
 ## 📋 Table of Contents
 
