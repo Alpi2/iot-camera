@@ -43,3 +43,5 @@ Thumbs.db
 # If you add backend/services later, ignore typical build/output directories there too
 # backend/dist, services/*/dist are already covered by **/dist/
 backend/
+
+todo.md
