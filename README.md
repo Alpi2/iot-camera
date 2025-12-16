@@ -15,13 +15,22 @@ The core concept, architecture, and features (real-time crowd monitoring, gate/q
 
 # EventOps – Intelligent Event Operations Management Platform
 
+<div align="center">
+
 ![EventOps Platform](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg?style=for-the-badge&logo=netlify)](https://iot-camera-app.netlify.app)
 
----
+<br/>
+
+<h2>
+  <a href="https://iot-camera-app.netlify.app">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_to_Open_App-2ea44f?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" height="40"/>
+  </a>
+</h2>
+
+## </div>
 
 ## 🔒 Backend and Architecture Note
 
