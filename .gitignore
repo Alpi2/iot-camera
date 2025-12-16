@@ -1,8 +1,47 @@
-# Frontend specific ignores
+# Node / package
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
 dist/
+**/dist/
+build/
+
+# Vite
 .vite/
+
+# Env
 .env
 .env.*.local
+
+# TypeScript
 *.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# OS
+Thumbs.db
+
+# Optional: ignore node_modules anywhere (useful for multi-package repos)
+**/node_modules/
+
+# If you add backend/services later, ignore typical build/output directories there too
+# backend/dist, services/*/dist are already covered by **/dist/
+
+
+todo.md
