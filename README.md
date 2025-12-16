@@ -956,7 +956,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - **Email:** [support@eventops.io](mailto:support@eventops.io)
 - **Documentation:** [Documentation](https://docs.eventops.io)
-- **Issue Tracker:** [Issue Tracker](https://github.com/your-org/eventops/issues)
+- **Issue Tracker:** [Issue Tracker](https://github.com/Alpi2/iot-camera.git)
 - **Community Forum:** [Community Forum](https://community.eventops.io)
 
 ---
