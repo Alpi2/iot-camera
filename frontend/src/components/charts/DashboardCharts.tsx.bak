@@ -1,0 +1,55 @@
+import {
+  LineChart,
+  Line,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+import ChartContainer from "../../components/ChartContainer";
+
+export default function DashboardCharts({
+  gateFlowData,
+  queueLoadData,
+}: {
+  gateFlowData: Array<Record<string, any>>;
+  queueLoadData: Array<Record<string, any>>;
+}) {
+  return (
+    <>
+      <ChartContainer title="Gate Flow Over Time">
+        <ResponsiveContainer width="100%" height={240}>
+          <LineChart data={gateFlowData}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <XAxis dataKey="time" stroke="#9ca3af" fontSize={12} />
+            <YAxis stroke="#9ca3af" fontSize={12} />
+            <Tooltip />
+            <Line
+              type="monotone"
+              dataKey="flow"
+              stroke="#3b82f6"
+              strokeWidth={2}
+              dot={{ fill: "#3b82f6" }}
+            />
+          </LineChart>
+        </ResponsiveContainer>
+      </ChartContainer>
+
+      <ChartContainer title="Queue Load Trend">
+        <ResponsiveContainer width="100%" height={240}>
+          <BarChart data={queueLoadData}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <XAxis dataKey="time" stroke="#9ca3af" fontSize={12} />
+            <YAxis stroke="#9ca3af" fontSize={12} />
+            <Tooltip />
+            <Bar dataKey="load" fill="#8b5cf6" radius={[8, 8, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </ChartContainer>
+    </>
+  );
+}
